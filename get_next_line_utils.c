@@ -64,9 +64,7 @@ void	ft_bzero(void *s, size_t n)
 void	*ft_calloc(size_t count, size_t size)
 {
 	char	*ptr;
-	size_t	i;
 
-	i = 0;
 	ptr = malloc(count * size);
 	if (ptr == NULL)
 		return (0);
